@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Matthew's Slots</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="slots1.js"></script>
+</head>
+<body>
+	<div class = "container-fluid">
+        <div class="jumbotron">
+            <h1>Matthew's Slot Machine</h1>
+        </div>
+    
+        <div class="row">
+    
+            <div class="well col-md-3 col-sm-3 col-xs-4">
+                <img id = "slot1" src="images/cherry.jpg" class="center-block img-fluid">
+            </div>
+    
+            <div class="well col-md-3 col-sm-3 col-xs-4">
+                <img id = "slot2" src="images/cherry.jpg" class="center-block img-fluid">
+            </div>
+    
+            <div class="well col-md-3 col-sm-3 col-xs-4">
+                <img id = "slot3" src="images/cherry.jpg" class="center-block img-fluid">
+            </div>
+ 
+            <div class = "well col-md-3 col-sm-3 col-xs-4">
+                <form>
+                	<input id="submit" type="button" class="btn btn-block btn-success" value="Spin!" onClick="DoSpin()"/><br/>
+                    Cash: <input  type = "text" id="balance" size="12" value="20" readonly="" /><br/><br/>
+                    Bet:  <input id="bet" type = "text" size ="13" value="1"/>   
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
