@@ -1,1 +1,2 @@
 # CS-416-WebProgramming
+An examination of client and server side programming to achieve advanced data-driven web applications. The course will examine key concepts of both the client and server side processing of a data-driven web applications, as well as, other topics including web architecture patterns, and security considerations. The course will focus on the foundations of these topics in terms of their relevance in making theoretical design choices as well as how they can be implemented in practice.
